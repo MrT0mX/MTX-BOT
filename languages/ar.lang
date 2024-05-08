@@ -1,0 +1,80 @@
+# ARABIC LANGUAGE
+# إذا كنت تريد التحرك أسفل الخط ، من فضلك استخدم \ n. على سبيل المثال: SpermLord \ nCatalizcs.
+# بعد التغيير ، يجب عليك إعادة تشغيل الروبوت لاستخدامه.
+# ضع حرف # في بداية كل جملة إذا كنت لا تريد أن يقوم الكود بتشغيل هذه الأسطر.
+# شكراً لك، MrTomXxX، على الترجمة العربية! يمكنك العثور على الترجمة في الرابط التالي: https://replit.com/Cat0Tom
+# تمت إضافة المزيد من النص بواسطة MrTomXxX! قد لا يكون البعض مرئيًا من الملفات الأخرى إذا لم يكن لديهم هذا الملف.
+
+# includes/listen.js
+
+listen.startLoadEnvironment = تابع تحميل متغير البيئة ...
+listen.loadedEnvironmentThread = تم تحميل متغير بيئة مؤشر الترابط بنجاح
+listen.loadedEnvironmentUser = تم تحميل متغير بيئة المستخدم بنجاح
+listen.successLoadEnvironment = تم تحميل متغير البيئة بنجاح
+listen.failLoadEnvironment = لا يمكن تحميل متغير البيئة ، الخطأ:٪ 1
+
+# includes / controller / Currency.js
+
+Currency.needObjectOrArray = يجب أن تكون صفيفًا أو كائنًا أو ربما كلاهما
+Currency.needObject = يجب أن تكون كائنًا
+Currency.needNumber = يجب أن يكون رقمًا
+
+# includes / controller / thread.js
+
+thread.needObjectOrArray = يجب أن تكون صفيفًا أو كائنًا أو ربما كلاهما
+thread.needObject = يجب أن تكون كائنًا
+
+# includes / controller / users. js
+
+users.needObjectOrArray = يجب أن تكون صفيفًا أو كائنًا أو ربما كلاهما
+users.needObject = يجب أن تكون كائنًا
+
+# include / handle / handleCommand.js
+
+handleCommand.userBanned = أنت غير قادر على استخدام الروبوت! \ n٪ 1 \ n٪ 2
+handleCommand.threadBanned = مؤشر الترابط الخاص بك غير قادر على استخدام الروبوت! \ n٪ 1 \ n٪ 2
+handleCommand.commandNotExist = الأمر الذي استخدمته غير موجود ، هل هذا "٪ 1" أم لا؟
+handleCommand.commandThreadBanned = مؤشر الترابط الخاص بك غير قادر على استخدام الأمر "٪ 1"
+handleCommand.commandUserBanned = أنت غير قادر على استخدام الأمر "٪ 1"
+handleCommand.threadNotAllowNSFW = مؤشر الترابط الخاص بك غير مسموح له باستخدام أوامر NSFW
+handleCommand.cantGetInfoThread = لا يمكن الحصول على معلومات سلسلة الرسائل الخاصة بك ، الخطأ:٪ 1
+handleCommand.permissionNotEnough = ليس لديك إذن لاستخدام الأمر "٪ 1"
+handleCommand.cantSetMessageReaction = وجود خطأ غير متوقع في setMessageReaction ، الخطأ:٪ 1
+handleCommand.executeCommand = [٪ 1] الأمر المستخدم:٪ 2 من قبل المستخدم:٪ 3 في مؤشر الترابط:٪ 4 | تضمين Args:٪ 5 | وقت المعالجة:٪ 6 مللي ثانية
+handleCommand.commandError = حدث خطأ غير متوقع عند استخدام الأمر٪ 1 ، الخطأ:٪ 2
+handleCommand.notMatched = ⚠ لا يتطلب هذا الأمر بادئة للبدء بها.
+handleCommand.noPrefix = لا يحتوي هذا الأمر على خاصية تكوين الأمر "usePrefix"
+handleCommand.commandNotFound = الأمر الذي استخدمته غير موجود.
+handleCommand.notFoundLanguage=لم يتم العثور على اللغة التي استخدمتها! يرجى التأكد من التحقق من اللغات المتاحة
+
+# includes/handle/handleCommandEvent.js
+
+handleCommandEvent.moduleError = وجود خطأ غير متوقع عند استخدام الأمر٪ 1 ، الخطأ:٪ 2
+
+# includes/handle/handleCreateDatabase.js
+
+handleCreateDatabase.newThread = مؤشر ترابط جديد:٪ 1
+handleCreateDatabase.newUser = مستخدم جديد٪ 1
+
+# includes/handle/handleEvent.js
+
+handleEvent.executeEvent = [٪ 1] تم تنفيذ الحدث:٪ 2 في مؤشر الترابط:٪ 3 | وقت المعالجة:٪ 4 مللي ثانية
+handleEvent.eventError = يوجد خطأ ما عند تنفيذ الحدث٪ 1 ، الخطأ:٪ 12
+
+# includes/handle/handleReaction.js
+
+handleReaction.missingValue = قيمة مفقودة للاستجابة لمشكلتك
+handleReaction.executeError = وجود خطأ ما عند الاستجابة لمشكلتك ، الخطأ:٪ 1
+
+# includes/handle/handleReply.js
+
+handleReply.missingValue = قيمة مفقودة للاستجابة لمشكلتك
+handleReply.executeError = وجود خطأ ما عند الاستجابة لمشكلتك ، الخطأ:٪ 1
+
+# includes/handle/handleSchedule.js
+
+handleSchedule.exectuteError = وجود خطأ ما عند الجدول في الوحدة النمطية٪ 1 ، الخطأ:٪ 2
+
+# utils/index.js
+
+uses.throwError = [!] الأمر الذي تستخدمه ليس صحيحًا في بناء الجملة ، الرجاء استخدام٪ 1help٪ 2 لمزيد من تفاصيل الاستخدام
