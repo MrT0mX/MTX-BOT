@@ -1,13 +1,10 @@
 <h1>MTX-BOT🤖<sub><sub>v1.7.2🚀</sub><br><sub><sub><h6>- A Simple MTX-BOT for starting a Messenger chatbot.</h6></sub></sub></sub></h1>
 
-<img align="center" src="https://i.ibb.co/gMMvsYf/20240125-225244-0000.png"></a>
+<img align="center" src="https://i.postimg.cc/8kKq5btw/images-2.jpg"></a>
 
 <h3>About</h3>
 
-Hello there! Thank you for using MTX-BOT! Join us at [ChatBot Community Ltd.](https://www.facebook.com/groups/178711334798450/?ref=share)🍪 if you wish to share and discover Mirai/MTX-BOT commands created by other command creators!
-
-> [!NOTE]
-> - If you encounter any issues or difficulties, don't hesitate to reach out and ask for assistance here. Our team is here to help you with any problems you may face.
+Hello there! Thank you for using MTX-BOT! Join us at [MrTomXxX Helping Zone](https://www.facebook.com/groups/tomxxx)🍪 if you wish to share and discover Mirai/MTX-BOT commands created by other command creators!
 
 
 ### Highlighted Feature
@@ -68,12 +65,12 @@ __=>__ Host your botfile on [render.com](https://dashboard.render.com) to make y
 - If you have some issues related to render hosting! Try our newly created facebook group with render hosting discussions!
 - Im currently looking for companions and conversation starters who have some knowledge about hosting in render to become moderators.
 - Feel free to join us at [Render Community](https://www.facebook.com/groups/7389392131128817/?ref=share) on Facebook! See you there!
-[<img align="center" src="https://i.ibb.co/DMXyLm3/Picsart-24-02-14-12-25-06-014.jpg">](https://www.facebook.com/groups/7389392131128817/?ref=share&mibextid=NSMWBT)
+[<img align="center" src="https://i.ibb.co/DMXyLm3/Picsart-24-02-14-12-25-06-014.jpg">](https://www.facebook.com/groups/tomxxx)
 </h1>
 
 ---
 
-- Welcome to the [MTX-BOT](https://github.com/MrT0mX/MTX-BOT)🌀 repository. This project is an unofficial bot file from the [Mirai](https://github.com/m1raibot/miraiv2) Repository, initially developed and maintained by [Phạm Văn Diện](https://github.com/MrTomXxX/Disme-Bot.git), better known as [MrTomXxX](https://github.com/MrTomXxX). The base file for this project is sourced from the [Disme-Bot](https://github.com/MrTomXxX/Disme-Bot.git) GitHub project.
+- Welcome to the [MTX-BOT](https://github.com/MrT0mX/MTX-BOT)🌀 repository. This project is an unofficial bot file from the [Mirai](https://github.com/m1raibot/miraiv2) Repository, initially developed and maintained by [Free Bot](https://github.com/MrT0mX/Free-Bot), better known as [MrTomXxX](https://github.com/MrT0mX). The base file for this project is sourced from the [Free-Bot](https://github.com/MrT0mX/Free-Bot.git) GitHub project.
 
 - [MTX-BOT](https://github.com/MrT0mX/MTX-BOT)🌀 is a modified messenger bot file by [MrTomXxX](https://replit.com/Cat0Tom)🇵🇭. It is a refined version of the Mirai messenger bot, with some unique enhancements. 
 
@@ -81,7 +78,7 @@ __=>__ Host your botfile on [render.com](https://dashboard.render.com) to make y
 <img align="center" src="https://i.imgur.com/Je8NbDn.jpg"/>
 
 - Further, [MTX-BOT](https://github.com/MrT0mX/MTX-BOT)🌀 comes with a user-friendly feature that allows easy customization of your console design via the `theme` option in the config.json file. This makes it highly accessible, especially for beginners.
-<img align="center" src="https://i.imgur.com/wHD2zXv.jpg"/>
+<img align="center" src="https://i.postimg.cc/NMmv3nSd/1690528355723-removebg-preview.png"/>
 
 <details>
   <summary>Available Themes</summary>
