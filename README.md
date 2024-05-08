@@ -75,7 +75,7 @@ __=>__ Host your botfile on [render.com](https://dashboard.render.com) to make y
 - [MTX-BOT](https://github.com/MrT0mX/MTX-BOT)🌀 is a modified messenger bot file by [MrTomXxX](https://replit.com/Cat0Tom)🇵🇭. It is a refined version of the Mirai messenger bot, with some unique enhancements. 
 
 - A key feature is the `usePrefix` function integrated within every command. This function removes the need for prefixes, providing a more streamlined user experience. Alongside ready-made commands and free-to-edit codes, this bot file encourages users to learn and explore freely.
-<img align="center" src="https://i.imgur.com/Je8NbDn.jpg"/>
+<img align="center" src="https://i.postimg.cc/1RqMhqB7/Capture.png"/>
 
 - Further, [MTX-BOT](https://github.com/MrT0mX/MTX-BOT)🌀 comes with a user-friendly feature that allows easy customization of your console design via the `theme` option in the config.json file. This makes it highly accessible, especially for beginners.
 <img align="center" src="https://i.postimg.cc/NMmv3nSd/1690528355723-removebg-preview.png"/>
@@ -121,7 +121,7 @@ Go to your `config.json` and set it in the language property:
 
 - If you encounter any issues or have questions related to this REPL, please don't hesitate to reach out to me on Facebook. I'm here to assist you!
 
-<img align="center" src="https://i.ibb.co/z4d9ttK/Screenshot-2024-01-25-06-40-30-01-a23b203fd3aafc6dcb84e438dda678b6.jpg"/>
+<img align="center" src="https://i.ibb.co/xCzgpG6/Snapchat-1365555982.jpg"/>
 
 ### **How to Start Using MTX-BOT?**
 
