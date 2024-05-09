@@ -47,7 +47,7 @@ function formatAttachmentsGraphQLResponse(attachment) {
         // With the following query params:
         //
         //    query_id:728987990612546
-        //    variables:{"id":"100009069356507","photoID":"10213724771692996"}
+        //    variables:{"id":"100017985245260","photoID":"10213724771692996"}
         //    dpr:1
         //
         // No special form though.
