@@ -1,6 +1,6 @@
 {
   "name": "mtx-bot",
-  "version": "1.7.2",
+  "version": "1.0.1",
   "description": "A Simple MTX-BOT for starting a Messenger chatbot.",
   "main": "main.js",
   "scripts": {
