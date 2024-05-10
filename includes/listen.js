@@ -61,21 +61,29 @@ module.exports = function ({ api }) {
       });
       if (global.config.autoCreateDB) {
         global.loading.log(
-          `Successfully loaded ${cb(`${global.data.allThreadID.length}`)} threads and ${cb(`${global.data.allUserID.length}`)} users`,
-          "LOADED",
+          `Successfully loaded ${cb(
+            `${global.data.allThreadID.length}`
+          )} threads and ${cb(`${global.data.allUserID.length}`)} users`,
+          "LOADED"
         );
       }
     } catch (error) {
       global.loading.log(
         `Can't load environment variable, error: ${error}`,
-        "error",
+        "error"
       );
     }
   })();
 
   global.loading.log(
-    `${cra(`[ BOT_INFO ]`)} success!\n${co(`[ LOADED ] `)}${cra(`[ NAME ]:`)} ${!global.config.BOTNAME ? "Bot Messenger" : global.config.BOTNAME} \n${co(`[ LOADED ] `)}${cra(`[ BotID ]: `)}${api.getCurrentUserID()}\n${co(`[ LOADED ] `)}${cra(`[ PREFIX ]:`)} ${global.config.PREFIX}`,
-    "LOADED",
+    `${cra(`[ BOT_INFO ]`)} success!\n${co(`[ LOADED ] `)}${cra(`[ NAME ]:`)} ${
+      !global.config.BOTNAME ? "Bot Messenger" : global.config.BOTNAME
+    } \n${co(`[ LOADED ] `)}${cra(
+      `[ BotID ]: `
+    )}${api.getCurrentUserID()}\n${co(`[ LOADED ] `)}${cra(`[ PREFIX ]:`)} ${
+      global.config.PREFIX
+    }`,
+    "LOADED"
   );
 
   const pkg = JSON.parse(fs.readFileSync("package.json", "utf-8"));
@@ -87,8 +95,10 @@ module.exports = function ({ api }) {
 
       if (compareVersions(gitVersion, v) > 0) {
         global.loading.log(
-          `Version ${co(gitVersion)} is available! Consider checking out '${cb("https://github.com/MrT0mX/MTX-BOT")}' for the latest updates.`,
-          "UPDATE",
+          `Version ${co(gitVersion)} is available! Consider checking out '${cb(
+            "https://github.com/MrT0mX/MTX-BOT"
+          )}' for the latest updates.`,
+          "UPDATE"
         );
       } else {
         global.loading.log("Bot is currently up-to-date.", "UPDATE");
@@ -176,4 +186,3 @@ module.exports = function ({ api }) {
     }
   };
 };
-  
