@@ -64,7 +64,7 @@ module.exports = function ({
               await new Promise((resolve) => setTimeout(resolve, 5 * 1000));
               return api.unsendMessage(info.messageID);
             },
-            messageID,
+            messageID
           );
         } else {
           if (threadBanned.has(threadID)) {
@@ -74,14 +74,14 @@ module.exports = function ({
                 "handleCommand",
                 "threadBanned",
                 reason,
-                dateAdded,
+                dateAdded
               ),
               threadID,
               async (err, info) => {
                 await new Promise((resolve) => setTimeout(resolve, 5 * 1000));
                 return api.unsendMessage(info.messageID);
               },
-              messageID,
+              messageID
             );
           }
         }
@@ -93,7 +93,7 @@ module.exports = function ({
         const allCommandName = Array.from(commands.keys());
         const checker = stringSimilarity.findBestMatch(
           commandName,
-          allCommandName,
+          allCommandName
         );
         if (checker.bestMatch.rating >= 0.5) {
           command = commands.get(checker.bestMatch.target);
@@ -102,9 +102,9 @@ module.exports = function ({
             global.getText(
               "handleCommand",
               "commandNotExist",
-              checker.bestMatch.target,
+              checker.bestMatch.target
             ),
-            threadID,
+            threadID
           );
         }
       }
@@ -118,28 +118,28 @@ module.exports = function ({
             global.getText(
               "handleCommand",
               "commandThreadBanned",
-              command.config.name,
+              command.config.name
             ),
             threadID,
             async (err, info) => {
               await new Promise((resolve) => setTimeout(resolve, 5 * 1000));
               return api.unsendMessage(info.messageID);
             },
-            messageID,
+            messageID
           );
         if (banUsers.includes(command.config.name))
           return api.sendMessage(
             global.getText(
               "handleCommand",
               "commandUserBanned",
-              command.config.name,
+              command.config.name
             ),
             threadID,
             async (err, info) => {
               await new Promise((resolve) => setTimeout(resolve, 5 * 1000));
               return api.unsendMessage(info.messageID);
             },
-            messageID,
+            messageID
           );
       }
     }
@@ -154,7 +154,7 @@ module.exports = function ({
         api.sendMessage(
           global.getText("handleCommand", "notMatched", command.config.name),
           event.threadID,
-          event.messageID,
+          event.messageID
         );
         return;
       }
@@ -167,7 +167,7 @@ module.exports = function ({
         api.sendMessage(
           global.getText("handleCommand", "noPrefix", command.config.name),
           event.threadID,
-          event.messageID,
+          event.messageID
         );
         return;
       }
@@ -188,7 +188,7 @@ module.exports = function ({
           await new Promise((resolve) => setTimeout(resolve, 5 * 1000));
           return api.unsendMessage(info.messageID);
         },
-        messageID,
+        messageID
       );
     var threadInfo2;
     if (event.isGroup == !![])
@@ -198,7 +198,7 @@ module.exports = function ({
         if (Object.keys(threadInfo2).length == 0) throw new Error();
       } catch (err) {
         logger.log(
-          global.getText("handleCommand", "cantGetInfoThread", "error"),
+          global.getText("handleCommand", "cantGetInfoThread", "error")
         );
       }
     var permssion = 0;
@@ -217,10 +217,10 @@ module.exports = function ({
         global.getText(
           "handleCommand",
           "permissionNotEnough",
-          command.config.name,
+          command.config.name
         ),
         event.threadID,
-        event.messageID,
+        event.messageID
       );
     }
 
@@ -253,10 +253,10 @@ module.exports = function ({
           err
             ? logger.log(
                 "An error occurred while executing setMessageReaction",
-                2,
+                2
               )
             : "",
-        !![],
+        !![]
       );
     var getText2;
     if (
@@ -303,9 +303,9 @@ module.exports = function ({
               senderID,
               threadID,
               args.join(" "),
-              Date.now() - dateNow,
+              Date.now() - dateNow
             ),
-            "DEV MODE",
+            "DEV MODE"
           );
         }
         return;
@@ -313,7 +313,7 @@ module.exports = function ({
     } catch (e) {
       return api.sendMessage(
         global.getText("handleCommand", "commandError", commandName, e),
-        threadID,
+        threadID
       );
     }
     activeCmd = false;
